@@ -1,0 +1,32 @@
+{
+ "_note": "SP8-A03 candidate policy C_warehouse_overtime_editor: Andre holds employee + candidate. Fictional company, test data only.",
+ "roles": {
+  "employee": [
+   "payslip.read.self"
+  ],
+  "payroll": [
+   "payslip.read.any"
+  ],
+  "hr": [
+   "employee.read.any"
+  ],
+  "candidate": [
+   "timesheet.read.dept:warehouse",
+   "timesheet.correct.dept:warehouse"
+  ]
+ },
+ "assignments": {
+  "maya.chen": [
+   "employee"
+  ],
+  "andre.okafor": [
+   "employee",
+   "candidate"
+  ],
+  "priya.raman": [
+   "employee",
+   "hr"
+  ],
+  "leo.brandt": []
+ }
+}

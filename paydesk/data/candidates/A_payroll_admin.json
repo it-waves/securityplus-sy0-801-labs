@@ -1,0 +1,34 @@
+{
+ "_note": "SP8-A03 candidate policy A_payroll_admin: Andre holds employee + candidate. Fictional company, test data only.",
+ "roles": {
+  "employee": [
+   "payslip.read.self"
+  ],
+  "payroll": [
+   "payslip.read.any"
+  ],
+  "hr": [
+   "employee.read.any"
+  ],
+  "candidate": [
+   "payslip.read.any",
+   "payrate.update.any",
+   "timesheet.read.any",
+   "timesheet.correct.any"
+  ]
+ },
+ "assignments": {
+  "maya.chen": [
+   "employee"
+  ],
+  "andre.okafor": [
+   "employee",
+   "candidate"
+  ],
+  "priya.raman": [
+   "employee",
+   "hr"
+  ],
+  "leo.brandt": []
+ }
+}
