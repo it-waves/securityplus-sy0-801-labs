@@ -37,7 +37,7 @@ Every decision is written to `logs/auth.jsonl`, one JSON record per line.
 | SP8-A01 Authentication: what a sign-in really proves | https://youtu.be/VUibvYc8Mi8 | `bash capture_a01.sh evidence/A01` and `bash capture_a01_practice.sh evidence/A01p` |
 | SP8-A02 Authorization: same sign-in, different answer | https://youtu.be/ANrQRnpzev0 | `bash capture_a02.sh evidence/A02` |
 | SP8-A03 Least privilege: four candidate roles, one job | https://youtu.be/tcXZ1uyf96w | `bash capture_a03.sh evidence/A03` (results in `results.csv`) |
-| SP8-A04 Defender Workshop: build and verify a least-privilege role | (this lesson) | follow the workshop below, or replay it with `bash workshop_a04.sh evidence/A04` |
+| SP8-A04 Defender Workshop: build and verify a least-privilege role | https://youtu.be/jWPFev6ek-o | follow the workshop below, or replay it with `bash workshop_a04.sh evidence/A04` |
 
 The capture scripts start PayDesk themselves on port 8443, so stop your own `paydesk.py` first.
 
