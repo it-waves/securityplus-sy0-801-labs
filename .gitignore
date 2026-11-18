@@ -1,0 +1,7 @@
+# generated on your machine by seed_users.py (test credentials) and by the lab at run time
+paydesk/data/users.json
+paydesk/data/lab_credentials.txt
+paydesk/logs/
+paydesk/evidence/
+__pycache__/
+*.pyc
