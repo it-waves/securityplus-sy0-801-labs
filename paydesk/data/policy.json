@@ -1,0 +1,14 @@
+{
+ "_note": "PayDesk 0.2-lab role policy. Fictional company, test data only. Default deny: anything not granted here is refused.",
+ "roles": {
+  "employee": ["payslip.read.self"],
+  "payroll":  ["payslip.read.any"],
+  "hr":       ["employee.read.any"]
+ },
+ "assignments": {
+  "maya.chen":    ["employee"],
+  "andre.okafor": ["employee", "payroll"],
+  "priya.raman":  ["employee", "hr"],
+  "leo.brandt":   []
+ }
+}

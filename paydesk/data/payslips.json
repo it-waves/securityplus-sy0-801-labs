@@ -1,0 +1,5 @@
+{
+ "E-1042": {"employee_id": "E-1042", "name": "Maya Chen", "period": "2026-11-01 to 2026-11-15", "gross": "1,920.00", "net": "1,512.40", "note": "lab data"},
+ "E-1007": {"employee_id": "E-1007", "name": "Andre Okafor", "period": "2026-11-01 to 2026-11-15", "gross": "2,640.00", "net": "2,031.75", "note": "lab data"},
+ "E-1001": {"employee_id": "E-1001", "name": "Priya Raman", "period": "2026-11-01 to 2026-11-15", "gross": "4,375.00", "net": "3,226.90", "note": "lab data"}
+}

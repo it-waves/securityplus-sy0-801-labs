@@ -1,0 +1,7 @@
+{
+ "_note": "PayDesk 0.3-lab employee directory. Fictional company, test data only. Not everyone has a PayDesk sign-in account.",
+ "E-1042": {"employee_id": "E-1042", "display_name": "Maya Chen",    "department": "warehouse", "role": "Warehouse associate"},
+ "E-1063": {"employee_id": "E-1063", "display_name": "Sam Ortiz",    "department": "warehouse", "role": "Warehouse associate"},
+ "E-1007": {"employee_id": "E-1007", "display_name": "Andre Okafor", "department": "payroll",   "role": "Payroll specialist"},
+ "E-1001": {"employee_id": "E-1001", "display_name": "Priya Raman",  "department": "hr",        "role": "HR director"}
+}

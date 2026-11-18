@@ -1,0 +1,11 @@
+{"user": "andre.okafor",
+ "checks": [
+  {"id": "T1", "method": "GET",  "path": "/timesheets/E-1042", "expect": 200, "why": "task: read Maya's timesheet"},
+  {"id": "T2", "method": "POST", "path": "/timesheets/E-1042/overtime", "body": {"overtime_hours": 5}, "expect": 200, "why": "task: correct Maya's overtime"},
+  {"id": "T3", "method": "GET",  "path": "/timesheets/E-1063", "expect": 200, "why": "task: read Sam's timesheet"},
+  {"id": "T4", "method": "POST", "path": "/timesheets/E-1063/overtime", "body": {"overtime_hours": 2}, "expect": 200, "why": "task: correct Sam's overtime"},
+  {"id": "X1", "method": "GET",  "path": "/payslips/E-1001", "expect": 403, "why": "must refuse: HR director's payslip"},
+  {"id": "X2", "method": "POST", "path": "/payrates/E-1042", "body": {"hourly": "99.00"}, "expect": 403, "why": "must refuse: change a pay rate"},
+  {"id": "X3", "method": "GET",  "path": "/timesheets/E-1001", "expect": 403, "why": "must refuse: non-warehouse timesheet"},
+  {"id": "X4", "method": "POST", "path": "/timesheets/E-1001/overtime", "body": {"overtime_hours": 9}, "expect": 403, "why": "must refuse: non-warehouse overtime"}
+ ]}

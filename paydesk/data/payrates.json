@@ -1,0 +1,6 @@
+{
+ "E-1042": {"employee_id": "E-1042", "hourly": "24.00", "note": "lab data"},
+ "E-1063": {"employee_id": "E-1063", "hourly": "23.50", "note": "lab data"},
+ "E-1007": {"employee_id": "E-1007", "hourly": "33.00", "note": "lab data"},
+ "E-1001": {"employee_id": "E-1001", "hourly": "54.69", "note": "lab data"}
+}

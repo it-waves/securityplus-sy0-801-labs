@@ -1,0 +1,7 @@
+{"user": "priya.raman",
+ "checks": [
+  {"id": "A1", "method": "GET",  "path": "/timesheets/E-1042", "expect": 200, "why": "duty: review Maya's overtime"},
+  {"id": "A2", "method": "GET",  "path": "/timesheets/E-1063", "expect": 200, "why": "duty: review Sam's overtime"},
+  {"id": "N1", "method": "POST", "path": "/timesheets/E-1042/overtime", "body": {"overtime_hours": 0}, "expect": 403, "why": "must refuse: an auditor never changes data"},
+  {"id": "N2", "method": "GET",  "path": "/timesheets/E-1007", "expect": 403, "why": "must refuse: non-warehouse timesheet"}
+ ]}

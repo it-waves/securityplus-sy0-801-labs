@@ -1,0 +1,6 @@
+{
+ "E-1042": {"employee_id": "E-1042", "week": "2026-W46", "regular_hours": 40, "overtime_hours": 3, "note": "lab data"},
+ "E-1063": {"employee_id": "E-1063", "week": "2026-W46", "regular_hours": 40, "overtime_hours": 0, "note": "lab data"},
+ "E-1007": {"employee_id": "E-1007", "week": "2026-W46", "regular_hours": 40, "overtime_hours": 0, "note": "lab data"},
+ "E-1001": {"employee_id": "E-1001", "week": "2026-W46", "regular_hours": 40, "overtime_hours": 0, "note": "lab data"}
+}
